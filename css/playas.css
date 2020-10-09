@@ -1,0 +1,17 @@
+header .navbar {
+  background-color: transparent !important;
+}
+
+.card img{
+	height: 195px !important;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+.card {
+	border:none !important;
+}
+
+a:hover {background-color: #F9F222;}

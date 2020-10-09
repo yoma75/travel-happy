@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Travel Happy</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Agregar logo a la pestaña -->
+  <link rel="shortcut icon" type="text/css" href="img/logo-avion.png">
+
+
+  <style>
+    a:hover {background-color: #F9F222;
+    		 border-radius: 9px;}
+  </style>
+
+</head>
+
+<body>
+	
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+        <a class="navbar-brand" href="#">
+          <img src="img/logotipo2.jpg" alt="logo" style="width:100px;height:50px">
+        </a>
+       
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav m-auto">
+            <a class="nav-item nav-link active text-dark" href="#">Reservas <span class="sr-only">(current)</span></a>    
+            <a class="nav-item nav-link active text-dark" href="registrarse.html">Registro</a>
+            <a class="nav-item nav-link active text-dark" href="iniciosesion.html">Inicio Sesion</a>  
+          </div>
+        </div>
+
+        <form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+          <button class="btn btn-success" type="submit">Buscar</button>
+        </form>
+    </nav>
+   </header>
+
+  <main>
+    <div class="container-fluid">
+      <img class="img-fluid" src="img/Banner-Circuito-en-Colombia-2019.jpg" >
+    </div>
+
+  <div class="container-fluid" style="margin-top:25px">
+    <div class="row">
+      <div class="col-md-12 text-danger">
+        <h3 class="bg-light" style="text-align:center">DESTINOS</h3>
+      </div>
+
+      <div class="card col-md-6 col-sm-6 col-lg-3" style="margin-top:16px">
+        <div class="card-header text-center text-primary">
+          <h4>Playas</h4>
+          <img src="img/playas.jpg" alt="playa" style="width:100%">
+        </div>
+
+        <div class="card-body">
+           <p class="card-text text-center">Colombia cuenta con 1.600 kilómetros de litoral en el Mar Caribe y 1.300 kilómetros en el océano Pacífico. En total, son más de trescientas playas, para todos los gustos. Algunas tienen todos los servicios requeridos por los turistas y otras son unos verdaderos paraísos naturales, alejados de las multitudes.</p>
+        </div>
+
+        <div class="card-footer text-center">
+          <a href="playas.html" target="_blanck" class="btn btn-info">Ver mas</a>            
+        </div> 
+      </div><!--final tarjeta playas --> 
+      
+       <div class="card col-md-6 col-sm-6 col-lg-3" style="margin-top:16px">
+        <div class="card-header text-center text-primary">
+          <h4>Ciudades</h4>
+          <img src="img/medellin.jpg" alt="medellin" style="width:100%">
+        </div>
+
+        <div class="card-body">
+           <p class="card-text text-center">La riqueza histórica y cultural de Colombia es producto de una interesante mezcla entre lo indígena, lo europeo y lo africano; esto se ve reflejado en sus modernas ciudades que conservan su tradición y gran diversidad, gente amable y hospitalaria asi como lugares turísticos mágicos que enamoran a sus visitantes.</p>
+        </div>
+
+        <div class="card-footer text-center">
+          <a href="ciudades.html" target="_blanck" class="btn btn-danger">Ver mas</a>            
+        </div> 
+      </div><!--final tarjeta ciudades --> 
+
+       <div class="card col-md-6 col-sm-6 col-lg-3" style="margin-top:16px">
+        <div class="card-header text-center text-primary">
+          <h4>Ecoturismo</h4>
+          <img src="img/ecoturismo.jpg" alt="ecoturismo" style="width:100%">
+        </div>
+
+        <div class="card-body">
+           <p class="card-text text-center">El ecoturismo es una forma de mostrarle al viajero todas las bellezas naturales que tiene Colombia, haciendo del ecoturismo una forma alternativa de viaje, aprender de los ecosistemas, disfrutar la buena energía y vistas maravillosas que nos ofrece la naturaleza, el equilibrio entre los que conforman estos lugares maravillosos.</p>
+        </div>
+
+        <div class="card-footer text-center">
+          <a href="ecoturismo.html" target="_blanck" class="btn btn-info">Ver mas</a>            
+        </div> 
+      </div><!--final tarjeta ecoturismo --> 
+
+       <div class="card col-md-6 col-sm-6 col-lg-3" style="margin-top:16px">
+        <div class="card-header text-center text-primary">
+          <h4>Parques tematicos</h4>
+          <img src="img/parquestematicos.jpg" alt="playa" style="width:100%">
+        </div>
+
+        <div class="card-body">
+           <p class="card-text text-center">La variedad geográfica del país, la belleza de sus paisajes, la innovación de sus ciudades, la cultura de sus regiones y muchos otros factores se han convertido en excusas perfectas para desarrollar por todo el territorio colombiano diversos parques temáticos e interactivos con planes de diversión para todas las edades.</p>
+        </div>
+
+        <div class="card-footer text-center">
+          <a href="parquestematicos.html" class="btn btn-danger">Ver mas</a>            
+        </div> 
+      </div><!--final tarjeta parques tematicos --> 
+    </div><!--final row -->
+  </div><!--final container cards -->
+  </main>
+
+ 
+    <footer  class="bg-dark" style="margin-top:25px;margin-bottom:15px">
+      <div class="row">
+        <div class="col-md-12 text-light">
+          <h6 style="text-align:center; padding-top:7px">Estamos ubicados en la Calle 154 # 54-87</h6>
+          <h6 style="text-align:center">Celular: 3106543211 - 3228697090 - 3103567898</h6>
+          <h6 style="text-align:center">Copyright 2019 – Travel Happy</h6>
+          <h5 style="text-align:center"><a href="#">travelhappy@gmail.com</a></h5>          
+        </div>        
+      </div>
+
+        <div>
+          <img class="mx-auto d-block" src="img/Facebook.png" style="width:3%;height:auto;margin-top:10px;padding-bottom:10px;cursor:pointer" alt="facebook" title="Facebook">
+        </div>
+    </footer>
+
+	   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
